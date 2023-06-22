@@ -1,0 +1,38 @@
+.clients{
+    &__title{
+        color:  #212121;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+    }
+    &__logo{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        padding: 0px 215px 0px 215px;
+    }
+
+&__icon{
+    width: 170px;
+  height: 92px;
+  border: 1px solid currentColor;
+  color: #afb1b8;
+  fill: currentColor;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  &__icon:hover{
+    border-color: #2196f3;
+fill: #2196f3;
+cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  } 
+
+}
