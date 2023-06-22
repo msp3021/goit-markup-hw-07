@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hw2-main page</title>
     <link rel="stylesheet" href="modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,7 +43,7 @@
 </li>
 
 <li class="header-main__list--tel">  
-          <a class="header-main____item" href="tel:+48111111111">
+          <a class="header-main__item" href="tel:+48111111111">
             <svg
             class="header-main__icon" 
             width="10" height="16"
@@ -73,130 +73,131 @@
         </button>
       </div>
 
-      <section class="atuty-list">
+      <section>
         <div class="container">
-          <ul class="atuty-list__feature feature">
+          <ul class="advantage-list">
             <li>
-              <div class="feature__icon">
+              <div class="advantage-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h4 class="feature__title">LOREM IPSUM</h4>
-              <p class="feature__text">
+              <h4 class="advantage-list__title">LOREM IPSUM</h4>
+              <p class="advantage-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuad
               </p>
             </li>
 
             <li>
-              <div class="feature__icon">
+              <div class="advantage-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h4 class="feature__title">LOREM IPSUM</h4>
-              <p class="feature__text">
+              <h4 class="advantage-list__title">LOREM IPSUM</h4>
+              <p class="advantage-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="feature__icon">
+              <div class="advantage-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
 
-              <h4 class="feature__title">LOREM IPSUM</h4>
+              <h4 class="advantage-list__title">LOREM IPSUM</h4>
 
-              <p class="feature__text">
+              <p class="advantage-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="feature__icon">
+              <div class="advantage-list__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h4 class="feature__title">LOREM IPSUM</h4>
-              <p class="feature__text">
+              <h4 class="advantage-list__title">LOREM IPSUM</h4>
+              <p class="advantage-list__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
           </ul>
+        </div>
 
           <div class="about">
-            <h2 class="about__title photo-list">Czym się zajmujemy</h2>
-            <ul class="photo-list__list">
-              <li class="photo-list__wrapper">
+            <h2 class="about__title">Czym się zajmujemy</h2>
+            <ul class="about__list">
+              <li class="about__wrapper">
                 <img
-                  class="photo-list__photo"
+                  class="about__photo"
                   src="images/photo1s.jpg"
                   width="370"
                   height="294"
                   alt="person typing on computer"
                 />
-                <p class="photo-list__title">Aplikacje komputerowe</p>
+                <p class="about__subtitle">Aplikacje komputerowe</p>
               </li>
-              <li class="photo-list__wrapper">
+              <li class="about__wrapper">
                 <img
-                  class="photo-list__photo"
+                  class="about__photo"
                   src="images/picture2s.jpg"
                   width="370"
                   height="294"
                   alt=" person comparing design at the mobile with computer version"
                 />
-                <p class="photo-list__title">Aplikacje mobilne</p>
+                <p class="about__subtitle">Aplikacje mobilne</p>
               </li>
-              <li class="photo-list__wrapper">
+              <li class="about__wrapper">
                 <img
-                  class="photo-list__photoe"
+                  class="about__photo"
                   src="images/photo3s.jpg"
                   width="370"
                   height="294"
                   alt="person choosing colour on tablet"
                 />
-                <p class="photo-list__title">Rozwiazania graficzne</p>
+                <p class="about__subtitle">Rozwiazania graficzne</p>
               </li>
             </ul>
           </div>
-        </div>
+        
       </section>
 
       <section class="our-team">
         <div class="container">
           <h2 class="our-team__title">Nasz zespół</h2>
-          <ul class="our-team__list people">
-            <li class="people__wrap">
+          <ul class="our-team__list">
+            <li class="our-team__wrap">
               <img
                 src="images/person1s.jpg"
                 width="270"
                 height="260"
                 alt="portrait of the men"
               />
-              <h3 class="people__title">John Doe</h3>
+              <h3 class="our-team__subtitle">John Doe</h3>
               <p>Product Designer</p>
-              <div class="people__icon">
-                <a class="people__social"
+              <div class="our-team__icon">
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
@@ -204,32 +205,32 @@
               </div>
             </li>
 
-            <li class="people__wrap">
+            <li class="our-team__wrap">
               <img
                 src="images/person2s.jpg"
                 width="270"
                 height="260"
                 alt="portrait of a woman"
               />
-              <h3 class="people__title">John Doe</h3>
+              <h3 class="our-team__subtitle">John Doe</h3>
               <p>Frontend Developer</p>
-              <div class="people__icon">
-                <a class="people__social"
+              <div class="our-team__icon">
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
@@ -237,7 +238,7 @@
               </div>
             </li>
 
-            <li class="people__wrap">
+            <li class="our-team__wrap">
               <img
                 src="images/person3s.jpg"
                 width="270"
@@ -245,25 +246,25 @@
                 alt="portrait of the men"
               />
 
-              <h3 class="people__title">John Doe</h3>
+              <h3 class="our-team__subtitle">John Doe</h3>
               <p>Marketing</p>
-              <div class="people__wrap">
-                <a class="people__icon"
+              <div class="our-team__icon">
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
@@ -271,32 +272,32 @@
               </div>
             </li>
 
-            <li class="people__wrap">
+            <li class="our-team__wrap">
               <img
                 src="images/person4s.jpg"
                 width="270"
                 height="260"
                 alt="portrait of the men"
               />
-              <h3 class="people__title">John Doe</h3>
+              <h3 class="our-team__subtitle">John Doe</h3>
               <p>UI Designer</p>
-              <div class="people__icon">
-                <a class="people__social"
+              <div class="our-team__icon">
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
-                <a class="people__social"
+                <a class="our-team__social"
                   ><svg width="20" height="20">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
