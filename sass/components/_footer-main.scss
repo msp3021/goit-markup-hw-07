@@ -3,12 +3,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-&__contact{
- display: flex;
-  gap: 70px;
+    &__contact{
+    display: flex;
+    gap: 70px;
     }
 
-    &__wrapper{
+&__wrapper{
         font-family: "Raleway", sans-serif;
         font-size: 26px;
         color: #ffffff;
@@ -62,7 +62,7 @@
         letter-spacing: 0.03em;
         font-weight: 700;
         text-align: left;
-      }
+     
      &__list{
         list-style: none;
         display: flex;
@@ -80,4 +80,6 @@
         margin-bottom: 12px;
         padding: 12px;  
      }
-}
+    }
+
+    }
