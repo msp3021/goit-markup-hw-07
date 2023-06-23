@@ -1,0 +1,108 @@
+.buttons{
+    padding-bottom: 90px;
+
+    &__list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top:94px;}
+  
+    &__link{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background: #f5f4fa;
+        border-radius: 4px;
+        color: var(--font-black);
+        border: #f5f4fa;
+        padding: 6px 25px;
+      }
+      &__link:hover,
+      &__link:focus{
+        background: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+}
+
+.portfolio{
+    &__list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: -40px;
+      } 
+      &__box{
+        background-color: #ffffff;
+  border-color: #eeeeee;
+  margin: 0 auto;
+  height: 404px;
+  width: 370px;
+  margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      &__box:hover,
+      &__box:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+      cursor: pointer; 
+      }
+
+      &__description{
+      padding-left: 20px;
+}
+
+&__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding: 49px 45px 49px 24px; 
+}
+
+&__overlay{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    background-color: #2196f3e6;
+    bottom: 0;
+    transform: translateY(100%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+&__title{
+    margin-top: 15px;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+&__subtitle{
+    margin-top: 4px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+&__animation{
+    position: relative;
+  overflow: hidden;
+}
+&__wrapper:hover
+&__overlay{
+    transform: translateY(0); 
+}
+
+    }

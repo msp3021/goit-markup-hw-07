@@ -2,13 +2,18 @@
     background: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-
-    &__contact{
-    display: flex;
-    gap: 70px;
+    margin-top: 94px;
+    
+    &__blocks{
+        display: flex;
+        gap: 70px; 
     }
+    
+.blocks{
 
-&__wrapper{
+  
+
+&__title{
         font-family: "Raleway", sans-serif;
         font-size: 26px;
         color: #ffffff;
@@ -42,14 +47,14 @@
   margin-bottom: 0;
       }
 
-      &__contact{
+      &__info{
         list-style: none;
   margin-top: 9px;
   margin-bottom: 0;
   padding: 0;
       }
 
-      &__info{
+      &__contact{
         color: #757575;
         font-size: 14px;
         letter-spacing: 0.03em;
@@ -80,5 +85,67 @@
         margin-bottom: 12px;
         padding: 12px;  
      }
+     &__link:hover{
+        background-color:  #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+      }
+.newsletter{
+  
+
+    &__title{
+display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 77px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#ffffff;
+    }
+
+
+    &__input{
+        box-sizing: border-box;
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding-left: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background: #2f303a;  
+    }
+    &__button{
+       
+        width: 200px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-left: 12px;
+        color: #ffffff;
+        background:#2196f3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+      
+        border:0px solid transparent;
+       }  
+       &__send{
+        fill: #ffffff;
+        margin-left: 24px;
+        vertical-align: middle;
+       }
     }
 }
+}     
+
+    
