@@ -3,8 +3,8 @@
     
 &__title{
 text-align: center;
-  color: #212121;
-  font-weight: 700;
+  color:$textcolor;
+font-weight: 700;
   font-size: 36px;
   margin-top: 94px;
   margin-bottom: 50px; 
@@ -37,7 +37,7 @@ text-align: center;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color:$white;
   width: 100%;
   padding-top: 27px;
   height: 70px;

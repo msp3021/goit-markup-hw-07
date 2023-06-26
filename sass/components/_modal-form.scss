@@ -12,7 +12,7 @@
   transform: scale(1);
   transition-property: visibility, opacity, transform;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+  transition-timing-function: $cubicbezier;
 }
 
 .is-hidden{
@@ -25,7 +25,7 @@
 .modal{
     width: 528px;
     height: 581px;
-    background-color: #ffffff;
+    background-color: $white;
     margin: auto;
     position:absolute;
     left: 50%;
@@ -40,7 +40,7 @@
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    background-color: $white;
     cursor: pointer;
     padding: 5px;
     margin: 8px 8px 0 0;
@@ -78,7 +78,7 @@
   margin-top: 4px;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+  transition-timing-function: $cubicbezier;
     }  
 
     &__input{
@@ -93,31 +93,31 @@
   border-radius: 4px;
   transition-property: border-color;
     transition-duration: 250ms;
-  transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+  transition-timing-function: $cubicbezier;
   outline: transparent; 
     }
 
     &__style:focus-within,
     &__input:focus-within{
-        fill:#2196f3;
-  border-color:#2196f3;
+        fill:$bluehighlight;
+  border-color: $bluehighlight;
     }
  
 
   &__icon{
         position: absolute;
-        fill: var(--font-black);
+        fill: $textcolor;
         transform: translateY(-50%);
         top: 50%;
         left:13px; 
     }
 
     &__input:focus+ &__icon {
-        fill:  #2196f3;
+        fill: $bluehighlight;
 
         transition-property: fill;
         transition-duration: 250ms;
-        transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1); 
+        transition-timing-function: $cubicbezier; 
 
     }
     
@@ -153,8 +153,8 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color:#ffffff;
-      background-color: #2196f3;
+    color:$white;
+      background-color: $bluehighlight;
   padding: 10px 76px;
   
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -177,7 +177,7 @@
     vertical-align: sub;
     transition-property:background-color, border-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
+    transition-timing-function: $cubicbezier;
    
 }
 
@@ -185,7 +185,7 @@
     display: block;
   width: 16px;
   height: 15px;
-  fill: #ffffff;
+  fill: $white;
 }
 
 &__agreement{
@@ -194,12 +194,12 @@
 }
 
 &__underline{
-    color: #2196f3;
+    color: $bluehighlight;
     text-decoration: underline;
 }
 &__input:checked + &__icon{
-    background-color:  #2196f3;
-    border-color:  #2196f3;
+    background-color:  $bluehighlight;
+    border-color:  $bluehighlight;
 
 &__position{
  text-align: center;

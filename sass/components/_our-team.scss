@@ -1,10 +1,10 @@
 .our-team{
-    background-color: #f5f4fa;
+    background-color: $offwhite;
     align-items: center;
     margin-top:94px;
 
     &__title{
-        color: #212121;
+        color: $textcolor;
         font-size: 36px;
         font-weight: 700;
         text-align: center;
@@ -25,7 +25,7 @@
   }
   &__wrap{
     text-align: center;
-  background-color: #ffffff;
+  background-color: $white;
   height: 428px;
   width: 270px;
   border-radius: 0 0 4 4;
@@ -46,7 +46,7 @@
   align-items: center;
   gap: 15px;
   margin: 30px;
-  fill: #afb1b8;
+  fill: $socialicon;
   margin-top: 16px;
 }
 &__social{
@@ -55,15 +55,16 @@
     margin-bottom: 10px;
     padding: 10px;
     cursor: pointer;
+    transition-property: fill background-color;
 
 }
 
 &__social:hover{
-background-color:#2196f3;
-  fill: #ffffff;
+background-color: $bluehighlight;
+  fill: $white;
   border-radius: 50px;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: $cubicbezier;
 }
 
 

@@ -11,8 +11,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    background:#ffffff ;
-    color: #212121;
+    background: $white;
+    color: $textcolor;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -52,7 +52,7 @@ nav{
 
 }
 footer{
-    background: #2f303a;
+    background: $bgfooter;
     padding:60px 0;
 
 }
