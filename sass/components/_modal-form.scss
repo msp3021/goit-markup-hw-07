@@ -58,7 +58,7 @@
         line-height: 1.15;
         text-align: center;
         letter-spacing: 0.03em;
-        color: var(--font-black);
+        color: $textcolor;
         margin-top: 40px;
         margin-bottom: 12px;  
     }
@@ -127,6 +127,10 @@
         color: rgba(117, 117, 117, 0.5);
         resize: none; 
         border-radius: 4px;
+        outline:rgba(0,0,0,0);
+    }
+      
+
 
       }
     .comment::placeholder{
@@ -136,7 +140,7 @@
         color: rgba(117, 117, 117, 0.5);
       
     }
-}
+
 
 .checkbox{
 
